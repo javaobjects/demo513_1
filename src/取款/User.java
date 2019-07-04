@@ -10,19 +10,22 @@ public class User {
 	
 	//构造方法:是一个空构造方法
 	public User(){
-		
+		System.out.println("User()");
 	}
 	//有参构造方法
 	public User(int id){
+		System.out.println("User("+id+")");
 		this.id = id;
 	}
 	
 	
 	{
+		System.out.println("对象的初始化块{}");
 		//初始化块(对象的初始化块)
 	}
 	
 	static {
+		System.out.println("静态初始化块static{}");
 		//静态初始化块(类的初始化块)
 	}
 	//静态属性,类的属性
@@ -39,15 +42,17 @@ public class User {
 	
 	//静态方法，类的方法
 	public static void printNmae() {
-		
+		System.out.println("pringName()");
 	}
 	
 	//成员方法，成员函数，对象的行为
 	public int getId() {
+		System.out.println("getId()" + id);
 		return id;
 	}
 	
 	public String getUsername() {
+		System.out.println("getUsername()");
 		return username;
 	}
 	
