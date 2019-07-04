@@ -11,8 +11,12 @@ public class Test匿名对象 {
 //		System.out.println(date.toString());
 //		System.out.println(date);
 		
-		System.out.println(new Date().toString());//这就是匿名对象
-		System.out.println(new Date());//这就是匿名对象
+//		System.out.println(new Date().toString());//这就是匿名对象
+//		System.out.println(new Date());//这就是匿名对象
+		
+		for (int i = 0; i < 10000; i++) {
+			Date date = new Date();
+		}
 	}
 
 }
