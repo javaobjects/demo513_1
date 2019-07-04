@@ -1,6 +1,6 @@
 package 取款;
 /**
- * 
+ * 修饰符 calss 类名 {   //类名 }
 * <p>Title: Account</p>  
 * <p>Description: </p>  
 * @author xianxian 
@@ -15,4 +15,8 @@ public class Account {
 	private int operatorId;
 	private String idCard;
 	private String mobilephone;
+	
+	private class InnerClass{
+		
+	}
 }
