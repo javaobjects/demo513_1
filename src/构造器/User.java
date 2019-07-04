@@ -46,6 +46,11 @@ public class User {
 		this.name = name;
 		this.password = password;
 	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", password=" + password + "]";
+	}
 	
 	/*
 	 * 构造器（构造方法/构造器，Constructor）
